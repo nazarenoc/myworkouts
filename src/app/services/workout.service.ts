@@ -11,8 +11,8 @@ export class WorkoutService {
 
     constructor(http:Http) {
         this.http = http;
-        this.apiKey = 'xZOhYVC-5PTcWA53LBCLEHq48piban71';
-        this.workoutUrl = 'https://api.mlab.com/api/1/databases/myworkouts/collections/workouts/';
+        this.apiKey = '';
+        this.workoutUrl = '';
     }
 
     getWorkouts() {
